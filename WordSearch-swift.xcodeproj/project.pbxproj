@@ -95,6 +95,7 @@
 		853883B0277A28ED00877C25 /* InvertedIndexesTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertedIndexesTable.swift; sourceTree = "<group>"; };
 		853883B4277A318A00877C25 /* SQLiteDatabaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDatabaseTest.swift; sourceTree = "<group>"; };
 		853883BA277A3D5400877C25 /* IndexerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexerTest.swift; sourceTree = "<group>"; };
+		853883BC277B797E00877C25 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +121,7 @@
 		8538834827777A9100877C25 = {
 			isa = PBXGroup;
 			children = (
+				853883BC277B797E00877C25 /* README.md */,
 				8538835327777A9100877C25 /* WordSearch */,
 				8538837B27778A7B00877C25 /* WordSearchTest */,
 				8538835227777A9100877C25 /* Products */,
