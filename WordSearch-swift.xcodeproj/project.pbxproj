@@ -8,6 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		8538835527777A9100877C25 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538835427777A9100877C25 /* main.swift */; };
+		8538835C27777AB500877C25 /* Analyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538835B27777AB500877C25 /* Analyzer.swift */; };
+		8538835E27777AD200877C25 /* CharFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538835D27777AD200877C25 /* CharFilter.swift */; };
+		8538836027777AFB00877C25 /* Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538835F27777AFB00877C25 /* Tokenizer.swift */; };
+		8538836227777B0B00877C25 /* TokenFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538836127777B0B00877C25 /* TokenFilter.swift */; };
+		8538836427777BB700877C25 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538836327777BB700877C25 /* Token.swift */; };
+		8538836627777CF700877C25 /* MappingCharFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538836527777CF700877C25 /* MappingCharFilter.swift */; };
+		8538836827777F3F00877C25 /* MorphologicalTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538836727777F3F00877C25 /* MorphologicalTokenizer.swift */; };
+		8538836A277782C800877C25 /* NgramTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85388369277782C800877C25 /* NgramTokenizer.swift */; };
+		8538836C277786F900877C25 /* LowercaseFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538836B277786F900877C25 /* LowercaseFilter.swift */; };
+		8538836E277787D900877C25 /* StopWordFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538836D277787D900877C25 /* StopWordFilter.swift */; };
+		8538838127778A7F00877C25 /* AnalyzerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538837427778A4E00877C25 /* AnalyzerTest.swift */; };
+		8538838327778ABA00877C25 /* MappingCharFilterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538838227778ABA00877C25 /* MappingCharFilterTest.swift */; };
+		8538838427778B1400877C25 /* Analyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538835B27777AB500877C25 /* Analyzer.swift */; };
+		8538838527778B1700877C25 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538836327777BB700877C25 /* Token.swift */; };
+		8538838627778B1B00877C25 /* CharFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538835D27777AD200877C25 /* CharFilter.swift */; };
+		8538838727778B1E00877C25 /* MappingCharFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538836527777CF700877C25 /* MappingCharFilter.swift */; };
+		8538838827778B2100877C25 /* Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538835F27777AFB00877C25 /* Tokenizer.swift */; };
+		8538838927778B2400877C25 /* MorphologicalTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538836727777F3F00877C25 /* MorphologicalTokenizer.swift */; };
+		8538838A27778B2600877C25 /* NgramTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85388369277782C800877C25 /* NgramTokenizer.swift */; };
+		8538838B27778B2A00877C25 /* TokenFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538836127777B0B00877C25 /* TokenFilter.swift */; };
+		8538838C27778B2C00877C25 /* LowercaseFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538836B277786F900877C25 /* LowercaseFilter.swift */; };
+		8538838D27778B2F00877C25 /* StopWordFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538836D277787D900877C25 /* StopWordFilter.swift */; };
+		8538838F27778D2F00877C25 /* MorphologicalTokenizerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538838E27778D2F00877C25 /* MorphologicalTokenizerTest.swift */; };
+		85388393277A052A00877C25 /* InvertedIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85388392277A052A00877C25 /* InvertedIndex.swift */; };
+		85388395277A060B00877C25 /* Indexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85388394277A060B00877C25 /* Indexer.swift */; };
+		85388398277A092500877C25 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85388397277A092500877C25 /* Document.swift */; };
+		8538839B277A0B4500877C25 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538839A277A0B4500877C25 /* Storage.swift */; };
+		8538839C277A184E00877C25 /* Indexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85388394277A060B00877C25 /* Indexer.swift */; };
+		8538839D277A185100877C25 /* InvertedIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85388392277A052A00877C25 /* InvertedIndex.swift */; };
+		8538839E277A185500877C25 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85388397277A092500877C25 /* Document.swift */; };
+		8538839F277A185E00877C25 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538839A277A0B4500877C25 /* Storage.swift */; };
+		853883A1277A19BF00877C25 /* SQLiteStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853883A0277A19BF00877C25 /* SQLiteStorage.swift */; };
+		853883A2277A19BF00877C25 /* SQLiteStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853883A0277A19BF00877C25 /* SQLiteStorage.swift */; };
+		853883A5277A1A8B00877C25 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 853883A4277A1A8B00877C25 /* SQLite */; };
+		853883A7277A1C3E00877C25 /* SQLiteDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853883A6277A1C3E00877C25 /* SQLiteDatabase.swift */; };
+		853883A8277A1C3E00877C25 /* SQLiteDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853883A6277A1C3E00877C25 /* SQLiteDatabase.swift */; };
+		853883AB277A1F8A00877C25 /* DocumentsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853883AA277A1F8A00877C25 /* DocumentsTable.swift */; };
+		853883AC277A1F8A00877C25 /* DocumentsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853883AA277A1F8A00877C25 /* DocumentsTable.swift */; };
+		853883AE277A20AF00877C25 /* TokensTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853883AD277A20AF00877C25 /* TokensTable.swift */; };
+		853883AF277A20AF00877C25 /* TokensTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853883AD277A20AF00877C25 /* TokensTable.swift */; };
+		853883B1277A28ED00877C25 /* InvertedIndexesTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853883B0277A28ED00877C25 /* InvertedIndexesTable.swift */; };
+		853883B2277A28ED00877C25 /* InvertedIndexesTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853883B0277A28ED00877C25 /* InvertedIndexesTable.swift */; };
+		853883B5277A318A00877C25 /* SQLiteDatabaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853883B4277A318A00877C25 /* SQLiteDatabaseTest.swift */; };
+		853883B8277A33D500877C25 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 853883B7277A33D500877C25 /* SQLite */; };
+		853883BB277A3D5400877C25 /* IndexerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853883BA277A3D5400877C25 /* IndexerTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +68,33 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8538835127777A9100877C25 /* WordSearch-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "WordSearch-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8538835127777A9100877C25 /* WordSearch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WordSearch; sourceTree = BUILT_PRODUCTS_DIR; };
 		8538835427777A9100877C25 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8538835B27777AB500877C25 /* Analyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analyzer.swift; sourceTree = "<group>"; };
+		8538835D27777AD200877C25 /* CharFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharFilter.swift; sourceTree = "<group>"; };
+		8538835F27777AFB00877C25 /* Tokenizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokenizer.swift; sourceTree = "<group>"; };
+		8538836127777B0B00877C25 /* TokenFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenFilter.swift; sourceTree = "<group>"; };
+		8538836327777BB700877C25 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		8538836527777CF700877C25 /* MappingCharFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappingCharFilter.swift; sourceTree = "<group>"; };
+		8538836727777F3F00877C25 /* MorphologicalTokenizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphologicalTokenizer.swift; sourceTree = "<group>"; };
+		85388369277782C800877C25 /* NgramTokenizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NgramTokenizer.swift; sourceTree = "<group>"; };
+		8538836B277786F900877C25 /* LowercaseFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowercaseFilter.swift; sourceTree = "<group>"; };
+		8538836D277787D900877C25 /* StopWordFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWordFilter.swift; sourceTree = "<group>"; };
+		8538837427778A4E00877C25 /* AnalyzerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzerTest.swift; sourceTree = "<group>"; };
+		8538837A27778A7B00877C25 /* WordSearchTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordSearchTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8538838227778ABA00877C25 /* MappingCharFilterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappingCharFilterTest.swift; sourceTree = "<group>"; };
+		8538838E27778D2F00877C25 /* MorphologicalTokenizerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphologicalTokenizerTest.swift; sourceTree = "<group>"; };
+		85388392277A052A00877C25 /* InvertedIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertedIndex.swift; sourceTree = "<group>"; };
+		85388394277A060B00877C25 /* Indexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indexer.swift; sourceTree = "<group>"; };
+		85388397277A092500877C25 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		8538839A277A0B4500877C25 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		853883A0277A19BF00877C25 /* SQLiteStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteStorage.swift; sourceTree = "<group>"; };
+		853883A6277A1C3E00877C25 /* SQLiteDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDatabase.swift; sourceTree = "<group>"; };
+		853883AA277A1F8A00877C25 /* DocumentsTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsTable.swift; sourceTree = "<group>"; };
+		853883AD277A20AF00877C25 /* TokensTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokensTable.swift; sourceTree = "<group>"; };
+		853883B0277A28ED00877C25 /* InvertedIndexesTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertedIndexesTable.swift; sourceTree = "<group>"; };
+		853883B4277A318A00877C25 /* SQLiteDatabaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDatabaseTest.swift; sourceTree = "<group>"; };
+		853883BA277A3D5400877C25 /* IndexerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +102,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				853883A5277A1A8B00877C25 /* SQLite in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8538837727778A7B00877C25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853883B8277A33D500877C25 /* SQLite in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,33 +120,162 @@
 		8538834827777A9100877C25 = {
 			isa = PBXGroup;
 			children = (
-				8538835327777A9100877C25 /* WordSearch-swift */,
+				8538835327777A9100877C25 /* WordSearch */,
+				8538837B27778A7B00877C25 /* WordSearchTest */,
 				8538835227777A9100877C25 /* Products */,
+				853883B6277A33D500877C25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		8538835227777A9100877C25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8538835127777A9100877C25 /* WordSearch-swift */,
+				8538835127777A9100877C25 /* WordSearch */,
+				8538837A27778A7B00877C25 /* WordSearchTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8538835327777A9100877C25 /* WordSearch-swift */ = {
+		8538835327777A9100877C25 /* WordSearch */ = {
 			isa = PBXGroup;
 			children = (
+				85388396277A091D00877C25 /* Document */,
+				8538836F2777890400877C25 /* Analyzer */,
+				85388391277A051500877C25 /* Indexer */,
+				85388399277A0B3C00877C25 /* Storage */,
 				8538835427777A9100877C25 /* main.swift */,
 			);
-			path = "WordSearch-swift";
+			path = WordSearch;
+			sourceTree = "<group>";
+		};
+		8538836F2777890400877C25 /* Analyzer */ = {
+			isa = PBXGroup;
+			children = (
+				8538835B27777AB500877C25 /* Analyzer.swift */,
+				8538836327777BB700877C25 /* Token.swift */,
+				853883702777891700877C25 /* CharFilter */,
+				853883712777892900877C25 /* Tokenizer */,
+				853883722777895900877C25 /* TokenFilter */,
+			);
+			path = Analyzer;
+			sourceTree = "<group>";
+		};
+		853883702777891700877C25 /* CharFilter */ = {
+			isa = PBXGroup;
+			children = (
+				8538835D27777AD200877C25 /* CharFilter.swift */,
+				8538836527777CF700877C25 /* MappingCharFilter.swift */,
+			);
+			path = CharFilter;
+			sourceTree = "<group>";
+		};
+		853883712777892900877C25 /* Tokenizer */ = {
+			isa = PBXGroup;
+			children = (
+				8538835F27777AFB00877C25 /* Tokenizer.swift */,
+				8538836727777F3F00877C25 /* MorphologicalTokenizer.swift */,
+				85388369277782C800877C25 /* NgramTokenizer.swift */,
+			);
+			path = Tokenizer;
+			sourceTree = "<group>";
+		};
+		853883722777895900877C25 /* TokenFilter */ = {
+			isa = PBXGroup;
+			children = (
+				8538836127777B0B00877C25 /* TokenFilter.swift */,
+				8538836B277786F900877C25 /* LowercaseFilter.swift */,
+				8538836D277787D900877C25 /* StopWordFilter.swift */,
+			);
+			path = TokenFilter;
+			sourceTree = "<group>";
+		};
+		8538837B27778A7B00877C25 /* WordSearchTest */ = {
+			isa = PBXGroup;
+			children = (
+				8538839027778EF200877C25 /* Analyzer */,
+				853883B3277A316E00877C25 /* Storage */,
+				853883B9277A3CE400877C25 /* Indexer */,
+			);
+			path = WordSearchTest;
+			sourceTree = "<group>";
+		};
+		8538839027778EF200877C25 /* Analyzer */ = {
+			isa = PBXGroup;
+			children = (
+				8538837427778A4E00877C25 /* AnalyzerTest.swift */,
+				8538838227778ABA00877C25 /* MappingCharFilterTest.swift */,
+				8538838E27778D2F00877C25 /* MorphologicalTokenizerTest.swift */,
+			);
+			path = Analyzer;
+			sourceTree = "<group>";
+		};
+		85388391277A051500877C25 /* Indexer */ = {
+			isa = PBXGroup;
+			children = (
+				85388392277A052A00877C25 /* InvertedIndex.swift */,
+				85388394277A060B00877C25 /* Indexer.swift */,
+			);
+			path = Indexer;
+			sourceTree = "<group>";
+		};
+		85388396277A091D00877C25 /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				85388397277A092500877C25 /* Document.swift */,
+			);
+			path = Document;
+			sourceTree = "<group>";
+		};
+		85388399277A0B3C00877C25 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				8538839A277A0B4500877C25 /* Storage.swift */,
+				853883A9277A1F7700877C25 /* SQLite */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		853883A9277A1F7700877C25 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				853883A0277A19BF00877C25 /* SQLiteStorage.swift */,
+				853883A6277A1C3E00877C25 /* SQLiteDatabase.swift */,
+				853883AA277A1F8A00877C25 /* DocumentsTable.swift */,
+				853883AD277A20AF00877C25 /* TokensTable.swift */,
+				853883B0277A28ED00877C25 /* InvertedIndexesTable.swift */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		853883B3277A316E00877C25 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				853883B4277A318A00877C25 /* SQLiteDatabaseTest.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		853883B6277A33D500877C25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		853883B9277A3CE400877C25 /* Indexer */ = {
+			isa = PBXGroup;
+			children = (
+				853883BA277A3D5400877C25 /* IndexerTest.swift */,
+			);
+			path = Indexer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8538835027777A9100877C25 /* WordSearch-swift */ = {
+		8538835027777A9100877C25 /* WordSearch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8538835827777A9100877C25 /* Build configuration list for PBXNativeTarget "WordSearch-swift" */;
+			buildConfigurationList = 8538835827777A9100877C25 /* Build configuration list for PBXNativeTarget "WordSearch" */;
 			buildPhases = (
 				8538834D27777A9100877C25 /* Sources */,
 				8538834E27777A9100877C25 /* Frameworks */,
@@ -77,10 +285,33 @@
 			);
 			dependencies = (
 			);
-			name = "WordSearch-swift";
+			name = WordSearch;
+			packageProductDependencies = (
+				853883A4277A1A8B00877C25 /* SQLite */,
+			);
 			productName = "WordSearch-swift";
-			productReference = 8538835127777A9100877C25 /* WordSearch-swift */;
+			productReference = 8538835127777A9100877C25 /* WordSearch */;
 			productType = "com.apple.product-type.tool";
+		};
+		8538837927778A7B00877C25 /* WordSearchTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8538837E27778A7B00877C25 /* Build configuration list for PBXNativeTarget "WordSearchTest" */;
+			buildPhases = (
+				8538837627778A7B00877C25 /* Sources */,
+				8538837727778A7B00877C25 /* Frameworks */,
+				8538837827778A7B00877C25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordSearchTest;
+			packageProductDependencies = (
+				853883B7277A33D500877C25 /* SQLite */,
+			);
+			productName = "WordSearch-swiftTest";
+			productReference = 8538837A27778A7B00877C25 /* WordSearchTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +326,9 @@
 					8538835027777A9100877C25 = {
 						CreatedOnToolsVersion = 13.1;
 					};
+					8538837927778A7B00877C25 = {
+						CreatedOnToolsVersion = 13.1;
+					};
 				};
 			};
 			buildConfigurationList = 8538834C27777A9100877C25 /* Build configuration list for PBXProject "WordSearch-swift" */;
@@ -106,14 +340,28 @@
 				Base,
 			);
 			mainGroup = 8538834827777A9100877C25;
+			packageReferences = (
+				853883A3277A1A8B00877C25 /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+			);
 			productRefGroup = 8538835227777A9100877C25 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8538835027777A9100877C25 /* WordSearch-swift */,
+				8538835027777A9100877C25 /* WordSearch */,
+				8538837927778A7B00877C25 /* WordSearchTest */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8538837827778A7B00877C25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8538834D27777A9100877C25 /* Sources */ = {
@@ -121,6 +369,56 @@
 			buildActionMask = 2147483647;
 			files = (
 				8538835527777A9100877C25 /* main.swift in Sources */,
+				85388395277A060B00877C25 /* Indexer.swift in Sources */,
+				8538836027777AFB00877C25 /* Tokenizer.swift in Sources */,
+				8538836827777F3F00877C25 /* MorphologicalTokenizer.swift in Sources */,
+				8538836227777B0B00877C25 /* TokenFilter.swift in Sources */,
+				853883A1277A19BF00877C25 /* SQLiteStorage.swift in Sources */,
+				8538836427777BB700877C25 /* Token.swift in Sources */,
+				85388393277A052A00877C25 /* InvertedIndex.swift in Sources */,
+				853883A7277A1C3E00877C25 /* SQLiteDatabase.swift in Sources */,
+				853883AE277A20AF00877C25 /* TokensTable.swift in Sources */,
+				853883B1277A28ED00877C25 /* InvertedIndexesTable.swift in Sources */,
+				8538836A277782C800877C25 /* NgramTokenizer.swift in Sources */,
+				8538835E27777AD200877C25 /* CharFilter.swift in Sources */,
+				8538835C27777AB500877C25 /* Analyzer.swift in Sources */,
+				8538836627777CF700877C25 /* MappingCharFilter.swift in Sources */,
+				853883AB277A1F8A00877C25 /* DocumentsTable.swift in Sources */,
+				8538836E277787D900877C25 /* StopWordFilter.swift in Sources */,
+				85388398277A092500877C25 /* Document.swift in Sources */,
+				8538836C277786F900877C25 /* LowercaseFilter.swift in Sources */,
+				8538839B277A0B4500877C25 /* Storage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8538837627778A7B00877C25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8538838B27778B2A00877C25 /* TokenFilter.swift in Sources */,
+				8538838927778B2400877C25 /* MorphologicalTokenizer.swift in Sources */,
+				8538839D277A185100877C25 /* InvertedIndex.swift in Sources */,
+				8538838C27778B2C00877C25 /* LowercaseFilter.swift in Sources */,
+				8538839C277A184E00877C25 /* Indexer.swift in Sources */,
+				8538838627778B1B00877C25 /* CharFilter.swift in Sources */,
+				8538838A27778B2600877C25 /* NgramTokenizer.swift in Sources */,
+				8538838D27778B2F00877C25 /* StopWordFilter.swift in Sources */,
+				8538839E277A185500877C25 /* Document.swift in Sources */,
+				8538838527778B1700877C25 /* Token.swift in Sources */,
+				853883A8277A1C3E00877C25 /* SQLiteDatabase.swift in Sources */,
+				853883BB277A3D5400877C25 /* IndexerTest.swift in Sources */,
+				8538838127778A7F00877C25 /* AnalyzerTest.swift in Sources */,
+				853883AF277A20AF00877C25 /* TokensTable.swift in Sources */,
+				853883A2277A19BF00877C25 /* SQLiteStorage.swift in Sources */,
+				853883B2277A28ED00877C25 /* InvertedIndexesTable.swift in Sources */,
+				853883AC277A1F8A00877C25 /* DocumentsTable.swift in Sources */,
+				8538838327778ABA00877C25 /* MappingCharFilterTest.swift in Sources */,
+				8538838827778B2100877C25 /* Tokenizer.swift in Sources */,
+				853883B5277A318A00877C25 /* SQLiteDatabaseTest.swift in Sources */,
+				8538838F27778D2F00877C25 /* MorphologicalTokenizerTest.swift in Sources */,
+				8538838427778B1400877C25 /* Analyzer.swift in Sources */,
+				8538839F277A185E00877C25 /* Storage.swift in Sources */,
+				8538838727778B1E00877C25 /* MappingCharFilter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +562,48 @@
 			};
 			name = Release;
 		};
+		8538837F27778A7B00877C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38PARARZ6C;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ensemble-lab.WordSearch-swiftTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8538838027778A7B00877C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38PARARZ6C;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ensemble-lab.WordSearch-swiftTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -276,7 +616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8538835827777A9100877C25 /* Build configuration list for PBXNativeTarget "WordSearch-swift" */ = {
+		8538835827777A9100877C25 /* Build configuration list for PBXNativeTarget "WordSearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8538835927777A9100877C25 /* Debug */,
@@ -285,7 +625,40 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		8538837E27778A7B00877C25 /* Build configuration list for PBXNativeTarget "WordSearchTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8538837F27778A7B00877C25 /* Debug */,
+				8538838027778A7B00877C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		853883A3277A1A8B00877C25 /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		853883A4277A1A8B00877C25 /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 853883A3277A1A8B00877C25 /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			productName = SQLite;
+		};
+		853883B7277A33D500877C25 /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 853883A3277A1A8B00877C25 /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8538834927777A9100877C25 /* Project object */;
 }
