@@ -19,6 +19,10 @@ class SQLiteStorage: Storage {
         db.documents.insert(document)
     }
     
+    func getDocuments(_ documentIds: [DocumentID]) -> [Document] {
+        db.documents.whereBy(ids: documentIds)
+    }
+    
     func getInvertedIndexByTokenIDs(tokenIDs: [TokenID]) -> InvertedIndex {
         db.invertedIndexes.whereWithTokenIds(tokenIDs)
     }
@@ -31,5 +35,8 @@ class SQLiteStorage: Storage {
         db.tokens.upsert(token)
     }
     
+    func getTokensByTerms(_ terms: [String]) -> [Token] {
+        db.tokens.whereBy(terms: terms)
+    }
     
 }

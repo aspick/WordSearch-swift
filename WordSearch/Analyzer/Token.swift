@@ -16,3 +16,9 @@ struct Token {
 }
 
 typealias TokenStream = [Token]
+
+extension TokenStream {
+    func terms() -> [String] {
+        self.map { token in token.term }
+    }
+}

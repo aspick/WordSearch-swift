@@ -50,6 +50,10 @@ class SQLiteDatabaseTest: XCTestCase {
         assert(savedToken?.id == tokenId)
         assert(savedToken?.term == token.term)
         assert(savedToken?.kana == token.kana)
+        
+        let savedTokens = db.tokens.whereBy(terms: ["保険"])
+        assert(savedTokens.count == 1)
+        assert(savedTokens.first?.id == savedToken?.id)
     }
     
     func testCreateInvertedIndexes() throws {

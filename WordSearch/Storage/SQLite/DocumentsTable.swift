@@ -58,4 +58,17 @@ class DocumentsTable {
         }
         return nil
     }
+    
+    func whereBy(ids: [DocumentID]) -> [Document] {
+        let query = documents.filter(ids.contains(id))
+        
+        do {
+            return try db.prepare(query).map({ row in
+                Document(id: row[id], body: row[body], tokenCount: row[tokenCount])
+            })
+        } catch {
+            debugPrint(error)
+        }
+        return []
+    }
 }

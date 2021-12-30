@@ -53,6 +53,15 @@
 		853883B5277A318A00877C25 /* SQLiteDatabaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853883B4277A318A00877C25 /* SQLiteDatabaseTest.swift */; };
 		853883B8277A33D500877C25 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 853883B7277A33D500877C25 /* SQLite */; };
 		853883BB277A3D5400877C25 /* IndexerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853883BA277A3D5400877C25 /* IndexerTest.swift */; };
+		853883BF277D27D600877C25 /* Searcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853883BE277D27D600877C25 /* Searcher.swift */; };
+		853883C0277D27D600877C25 /* Searcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853883BE277D27D600877C25 /* Searcher.swift */; };
+		853883C2277D281C00877C25 /* MatchSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853883C1277D281C00877C25 /* MatchSearcher.swift */; };
+		853883C3277D281C00877C25 /* MatchSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853883C1277D281C00877C25 /* MatchSearcher.swift */; };
+		853883C6277D53F600877C25 /* Sorter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853883C5277D53F600877C25 /* Sorter.swift */; };
+		853883C7277D53F600877C25 /* Sorter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853883C5277D53F600877C25 /* Sorter.swift */; };
+		853883CA277D8F9D00877C25 /* SearcherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853883C9277D8F9D00877C25 /* SearcherTest.swift */; };
+		853883CC277D9EA400877C25 /* PhraseSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853883CB277D9EA400877C25 /* PhraseSearcher.swift */; };
+		853883CD277D9EA400877C25 /* PhraseSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853883CB277D9EA400877C25 /* PhraseSearcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -96,6 +105,11 @@
 		853883B4277A318A00877C25 /* SQLiteDatabaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDatabaseTest.swift; sourceTree = "<group>"; };
 		853883BA277A3D5400877C25 /* IndexerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexerTest.swift; sourceTree = "<group>"; };
 		853883BC277B797E00877C25 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		853883BE277D27D600877C25 /* Searcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searcher.swift; sourceTree = "<group>"; };
+		853883C1277D281C00877C25 /* MatchSearcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchSearcher.swift; sourceTree = "<group>"; };
+		853883C5277D53F600877C25 /* Sorter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorter.swift; sourceTree = "<group>"; };
+		853883C9277D8F9D00877C25 /* SearcherTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearcherTest.swift; sourceTree = "<group>"; };
+		853883CB277D9EA400877C25 /* PhraseSearcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseSearcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +155,8 @@
 		8538835327777A9100877C25 /* WordSearch */ = {
 			isa = PBXGroup;
 			children = (
+				853883C4277D53E900877C25 /* Sorter */,
+				853883BD277D27C400877C25 /* Searcher */,
 				85388396277A091D00877C25 /* Document */,
 				8538836F2777890400877C25 /* Analyzer */,
 				85388391277A051500877C25 /* Indexer */,
@@ -197,6 +213,7 @@
 				8538839027778EF200877C25 /* Analyzer */,
 				853883B3277A316E00877C25 /* Storage */,
 				853883B9277A3CE400877C25 /* Indexer */,
+				853883C8277D8F8900877C25 /* Searcher */,
 			);
 			path = WordSearchTest;
 			sourceTree = "<group>";
@@ -270,6 +287,32 @@
 				853883BA277A3D5400877C25 /* IndexerTest.swift */,
 			);
 			path = Indexer;
+			sourceTree = "<group>";
+		};
+		853883BD277D27C400877C25 /* Searcher */ = {
+			isa = PBXGroup;
+			children = (
+				853883BE277D27D600877C25 /* Searcher.swift */,
+				853883C1277D281C00877C25 /* MatchSearcher.swift */,
+				853883CB277D9EA400877C25 /* PhraseSearcher.swift */,
+			);
+			path = Searcher;
+			sourceTree = "<group>";
+		};
+		853883C4277D53E900877C25 /* Sorter */ = {
+			isa = PBXGroup;
+			children = (
+				853883C5277D53F600877C25 /* Sorter.swift */,
+			);
+			path = Sorter;
+			sourceTree = "<group>";
+		};
+		853883C8277D8F8900877C25 /* Searcher */ = {
+			isa = PBXGroup;
+			children = (
+				853883C9277D8F9D00877C25 /* SearcherTest.swift */,
+			);
+			path = Searcher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,14 +417,18 @@
 				85388395277A060B00877C25 /* Indexer.swift in Sources */,
 				8538836027777AFB00877C25 /* Tokenizer.swift in Sources */,
 				8538836827777F3F00877C25 /* MorphologicalTokenizer.swift in Sources */,
+				853883C2277D281C00877C25 /* MatchSearcher.swift in Sources */,
 				8538836227777B0B00877C25 /* TokenFilter.swift in Sources */,
 				853883A1277A19BF00877C25 /* SQLiteStorage.swift in Sources */,
 				8538836427777BB700877C25 /* Token.swift in Sources */,
 				85388393277A052A00877C25 /* InvertedIndex.swift in Sources */,
+				853883BF277D27D600877C25 /* Searcher.swift in Sources */,
 				853883A7277A1C3E00877C25 /* SQLiteDatabase.swift in Sources */,
 				853883AE277A20AF00877C25 /* TokensTable.swift in Sources */,
 				853883B1277A28ED00877C25 /* InvertedIndexesTable.swift in Sources */,
 				8538836A277782C800877C25 /* NgramTokenizer.swift in Sources */,
+				853883C6277D53F600877C25 /* Sorter.swift in Sources */,
+				853883CC277D9EA400877C25 /* PhraseSearcher.swift in Sources */,
 				8538835E27777AD200877C25 /* CharFilter.swift in Sources */,
 				8538835C27777AB500877C25 /* Analyzer.swift in Sources */,
 				8538836627777CF700877C25 /* MappingCharFilter.swift in Sources */,
@@ -403,6 +450,7 @@
 				8538838C27778B2C00877C25 /* LowercaseFilter.swift in Sources */,
 				8538839C277A184E00877C25 /* Indexer.swift in Sources */,
 				8538838627778B1B00877C25 /* CharFilter.swift in Sources */,
+				853883C3277D281C00877C25 /* MatchSearcher.swift in Sources */,
 				8538838A27778B2600877C25 /* NgramTokenizer.swift in Sources */,
 				8538838D27778B2F00877C25 /* StopWordFilter.swift in Sources */,
 				8538839E277A185500877C25 /* Document.swift in Sources */,
@@ -417,8 +465,12 @@
 				8538838327778ABA00877C25 /* MappingCharFilterTest.swift in Sources */,
 				8538838827778B2100877C25 /* Tokenizer.swift in Sources */,
 				853883B5277A318A00877C25 /* SQLiteDatabaseTest.swift in Sources */,
+				853883C0277D27D600877C25 /* Searcher.swift in Sources */,
+				853883CA277D8F9D00877C25 /* SearcherTest.swift in Sources */,
 				8538838F27778D2F00877C25 /* MorphologicalTokenizerTest.swift in Sources */,
 				8538838427778B1400877C25 /* Analyzer.swift in Sources */,
+				853883C7277D53F600877C25 /* Sorter.swift in Sources */,
+				853883CD277D9EA400877C25 /* PhraseSearcher.swift in Sources */,
 				8538839F277A185E00877C25 /* Storage.swift in Sources */,
 				8538838727778B1E00877C25 /* MappingCharFilter.swift in Sources */,
 			);

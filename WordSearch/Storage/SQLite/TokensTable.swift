@@ -58,4 +58,16 @@ class TokensTable {
         }
         return nil
     }
+    
+    func whereBy(terms: [String]) -> [Token] {
+        let query = tokens.filter(terms.contains(term))
+        do {
+            return try db.prepare(query).map({ row in
+                Token(id: row[id], term: row[term], kana: row[kana])
+            })
+        } catch {
+            debugPrint(error)
+        }
+        return []
+    }
 }
